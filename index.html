@@ -1,0 +1,260 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <title>Dibagi.in</title>
+  </head>
+  <body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand logo" href="#"><i class="fas fa-heart"></i> Dibagi<span>.in</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse navbar-item" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home"><i class="fas fa-home"></i> Beranda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about"><i class="fas fa-user"></i> Tentang</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#food-stuff"><i class="fas fa-box"></i> Barang</a>
+                  <!-- </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="app.html"><i class="fab fa-android"></i> App</a>
+                  </li> -->
+                  </ul>
+                  <div class="login-box d-flex">
+                    <a href="#" id="login-btn" class="login-btn">Masuk</a>
+                  </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="container">
+        <!-- SECTION HOME START -->
+        <section class="home" id="home">
+            <div class="row">
+                <div class="col-md-6 info-home">
+                    <div class="text-home">
+                        <h4>Selamat Datang</h4>
+                        <h2>Ayo bagikan barang layak pakai kamu sekarang!</h2>
+                        <p>Kamu bingung ingin mendonasikan barang layak pakai kamu kemana? Tenaaang!, sekarang kamu bisa bagiin barang barang kamu di sini.</p>
+                        <a class="btn-style outer-shadow inner-shadow hover-in-shadow" href="#">Mulai</a>
+                        <a class="detail" href="#about">Detail</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="img-home">
+                        <img src="assets/img/hero-food.png" alt="hero img">
+                    </div>
+                </div>
+            </div>               
+        </section>
+        <!-- SECTION HOME END -->
+        
+        <!-- SECTION ABOUT START -->
+        <section class="about" id="about">
+            <h2 style="font-weight: bold;" class="text-center">Tentang <span style="color: var(--green);">DiBagi.in</span></h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-about">
+                        <img src="assets/img/about-img.png" alt="about img">
+                    </div>
+                </div>
+                <div class="col-md-6 info-about">
+                    <div class="text-about">
+                        <h3>Platform Berbagi Barang Layak Pakai</h3>
+                        <p>DiBagi.in merupakan suatu platform berbagi barang layak pakai yang ditujukan bagi korban bencana yang sangat membutuhkan bantuan barang layak pakai dari donatur yang selalu sedia mendonasikan barang mereka melalui platform dibagi.in, Platform ini sebagai perantara atau penghubung antara donatur dengan para korban bencana.<br/>
+                        Cara kerja aplikasi ini sangat sederhana, Donatur cukup memotret barang layak pakai mereka di platform dibagi.in kemudian pada korban bencana yang membutuhkan barang cukup klik ambil pada dashboard dibagi.in </p>
+                        <a class="btn-style outer-shadow inner-shadow hover-in-shadow" href="#">Mulai Sekarang!</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <div class="share-box p-3 outer-shadow">
+                      <h3 class="text-center"><i class="fas fa-box"></i> Cara Memposting Barang Donasi</h3>
+                      <div class="share-food">
+                        <ul>
+                            <li>Masuk ke halaman dashboard terlebih dahulu.</li>
+                            <li>Pilih menu upload barang.</li>
+                            <li>isi detail barang, lalu klik posting.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <div class="share-box p-3 outer-shadow">
+                      <h3 class="text-center"><i class="fas fa-hand"></i> Cara Mengambil Barang Donasi</h3>
+                      <div class="share-stuff">
+                        <ul>
+                            <li>Masuk ke halaman dashboard terlebih dahulu.</li>
+                            <li>Klik menu daftar barang.</li>
+                            <li>Apabila sudah menemukan barang yang sesuai kemudian klik ambil.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+
+            </div>               
+        </section>
+        <!-- SECTION ABOUT END -->
+
+        <!-- SECTION FODD & STUFF START -->
+        <section class="food-stuff" id="food-stuff">
+            <h2 style="font-weight: bold;" class="text-center">Food & <span style="color: var(--green);">Stuff</span></h2>
+
+            <!-- <div class="row mt-4">
+                <h4 class="text-center">Sample Food <i class="fas fa-burger"></i></h4>
+                <div class="col-md-4 my-2">
+                  <div class="card-box">
+                    <img src="assets/img/menu/menu.jpg" alt="sample food">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 my-2">
+                  <div class="card-box">
+                    <img src="assets/img/menu/menu1.jpg" alt="sample food">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 my-2">
+                  <div class="card-box">
+                    <img src="assets/img/menu/menu2.jpg" alt="sample food">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 my-2">
+                  <div class="card-box">
+                    <img src="assets/img/menu/menu3.jpg" alt="sample food">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 my-2">
+                  <div class="card-box">
+                    <img src="assets/img/menu/menu4.jpg" alt="sample food">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                  </div>
+                </div>
+               
+            </div> -->
+
+            <div class="row mt-5">
+                <h4 class="text-center">Sample Stuff <i class="fas fa-book"></i></h4>
+                <div class="col-md-4 my-2">
+                    <div class="card-box">
+                      <img src="assets/img/stuff/gbr1.jpg" alt="sample stuff">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card-box">
+                      <img src="assets/img/stuff/gbr2.jpg" alt="sample stuff">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card-box">
+                      <img src="assets/img/stuff/gbr3.jpg" alt="sample stuff">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card-box">
+                      <img src="assets/img/stuff/gbr4.jpg" alt="sample stuff">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vitae.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION FODD & STUFF END -->
+
+        <!-- SECTION TEAM START -->
+        <section class="team" id="team">
+          <h2 style="font-weight: bold;" class="text-center">Our <span style="color: var(--green);">Team</span></h2>
+          <div class="row mt-5">
+            <div class="col-md-3 my-2">
+                <div class="card-box">
+                  <img src="assets/img/team/yuda.jpeg" alt="sample stuff">
+                  <h3>Yuda Anugrah</h3>
+                  <p>Front-end Developer</p>
+
+                  <div class="social-media">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-2">
+                <div class="card-box">
+                  <img src="assets/img/team/surya.jpg" alt="sample stuff">
+                  <h3>Surya Saputra</h3>
+                  <p>Back-end Developer</p>
+
+                  <div class="social-media">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-2">
+                <div class="card-box">
+                  <img src="assets/img/team/yuda.jpeg" alt="sample stuff">
+                  <h3>Arif Rizqi</h3>
+                  <p>Front-end Developer</p>
+
+                  <div class="social-media">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-2">
+                <div class="card-box">
+                  <img src="assets/img/team/yuda.jpeg" alt="sample stuff">
+                  <h3>Annas Setiawan</h3>
+                  <p>Front-end Developer</p>
+
+                  <div class="social-media">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        
+    </main>
+
+    <footer>
+      <p>© 2022 Copyright: Create & Design with <span style="color: salmon;">&#9829;</span> by Capstone Team C22-053</p>
+    </footer>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>
